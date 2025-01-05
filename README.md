@@ -1,3 +1,6 @@
+*This is a dirty port to KF6*
+
+
 # File Stash KIO Worker
 
 ## Introduction
