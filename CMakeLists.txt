@@ -4,7 +4,7 @@ project(KIOFileStash)
 
 set(QT_MIN_VERSION "6.0.0")
 set(KF_MIN_VERSION "6.0.0")
-set(KDE_COMPILERSETTINGS_LEVEL "5.84.0")
+set(KDE_COMPILERSETTINGS_LEVEL "6.0.0")
 
 find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 set(
@@ -22,7 +22,7 @@ include(KDEGitCommitHooks)
 include(FeatureSummary)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING) #prevents implicit conversion of QString to QUrl
-add_definitions(-DTRANSLATION_DOMAIN=\"kio5_stash\")
+add_definitions(-DTRANSLATION_DOMAIN=\"kio6_stash\")
 
 find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS
     Core
