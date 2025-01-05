@@ -22,7 +22,7 @@ include(KDEGitCommitHooks)
 include(FeatureSummary)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING) #prevents implicit conversion of QString to QUrl
-add_definitions(-DTRANSLATION_DOMAIN=\"kio6_stash\")
+add_definitions(-DTRANSLATION_DOMAIN=\"kio5_stash\")
 
 find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS
     Core
